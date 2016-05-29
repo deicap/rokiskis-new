@@ -1,0 +1,81 @@
+
+.form-control {
+	font-family: $font-family-sans-serif;
+	color: inherit;
+}
+
+.form-group.row {
+
+	.form-control-label {
+		padding-left: 0.9375rem;
+		padding-right: 0.9375rem;
+	}	
+	
+}
+
+.site-form {
+	margin: 0 0 30px 0;
+
+}
+
+.site-form + .site-form {
+	margin-top: 60px;
+}
+
+
+.form-subtitle {
+	border-bottom: lighten(#c0bba4, 15%) 1px solid;
+	padding-bottom: 15px;
+}
+
+.form-buttons {
+	border-top: lighten(#c0bba4, 15%) 1px solid;
+	padding-top: 30px;
+	margin-top: 30px;
+}
+
+.form-control-skaitiklis {
+	
+	display: inline-block;
+	text-align: right;
+}
+
+.table-rodmenys {
+	
+	td {
+		vertical-align: middle;
+	}
+	
+}
+
+.table-grouping-row {
+
+	> td {
+		padding-top: 15px !important;
+		padding-bottom: 15px !important;
+		background: #e0dec5;
+		font-style: italic;
+	}
+	
+}
+
+
+.form-inline-history {
+
+	margin: 0 0 30px 0;
+	
+	.form-control-date {
+		max-width: 100px;
+		margin-left: 5px;
+		margin-right: 5px;
+	}
+
+	.form-control-search {
+		min-width: 275px;
+		margin-left: 25px;
+		padding-right: 30px;
+		background: #fff url('images/search-icon.png') no-repeat center right / auto 80%;
+	}
+
+}
+

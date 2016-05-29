@@ -1,0 +1,86 @@
+.trow {
+
+	display: table;
+	
+	> * {
+	
+		&.trow {
+			display: table-row;
+		}
+	
+		&:not(.trow) {
+		
+			display: table-cell;
+			padding-left: 0.25em;
+			padding-right: 0.25em;
+			
+			&:first-child {
+				padding-left: 0;
+			}
+			
+			&:last-child {
+				padding-right: 0;
+			}
+			
+			&.trow-min {
+				width: 1%;
+			}
+			
+		}
+		
+	}
+
+}
+
+.trow-top {
+	
+	> * {
+		vertical-align: top;
+		
+		> * {
+			vertical-align: top;
+		}
+		
+	}
+	
+}
+
+.trow-vmiddle {
+	
+	> * {
+		vertical-align: middle;
+		
+		> * {
+			vertical-align: middle;
+		}
+		
+	}
+	
+}
+
+.trow-bottom {
+	
+	> * {
+		vertical-align: bottom;
+		
+		> * {
+			vertical-align: bottom;
+		}
+		
+	}
+	
+}
+
+
+.trow-fixed {
+	
+	table-layout: fixed;
+	
+}
+
+.trow-full {
+	
+	width: 100%;
+	
+}
+

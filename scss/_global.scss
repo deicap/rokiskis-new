@@ -1,0 +1,62 @@
+body {
+	overflow-y: scroll;
+	-webkit-text-size-adjust: 100%;
+	min-width: 1000px;
+}
+
+.browser-warning {
+	
+	position: relative;
+	background: $brand-danger;
+	padding: 30px;
+	color: #fff;
+	display: block;
+	
+	a {
+		color: inherit;
+		text-decoration: underline !important;
+	}
+	
+}
+
+img {
+	max-width: 100%;
+	position: relative;
+	height: auto;
+}
+
+.btn,
+button,
+select,
+textarea,
+input,
+a {
+	outline: none !important;
+}
+
+.site-pagination,
+.form-wrapper {
+	margin-bottom: 30px;
+}
+
+.line {
+
+	margin-bottom: 15px;
+	padding-bottom: 15px;
+	
+	position: relative;
+	border-top: #e0e0e0 1px solid;
+	
+}
+
+.no-border-top {
+	> td {
+		border-top: none;
+	}
+}
+
+.modal-header {
+	button.close {
+		font-size: 2rem;
+	}
+}

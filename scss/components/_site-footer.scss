@@ -1,0 +1,20 @@
+.site-footer {
+	text-align: center;
+	color: #3d2a0a;
+	background: #d2ab68 url('images/site-footer-bg.gif') repeat-x top left;
+}
+
+.site-footer-contents {
+	.trow {
+		> * {
+			padding: 19px 15px;
+			vertical-align: top;
+			font-size: 12px;
+		}
+	}
+	
+	a {
+		color: inherit;
+	}
+	
+}

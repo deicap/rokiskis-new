@@ -1,0 +1,68 @@
+
+.site-main {
+
+	background: #f1e8bf url('images/site-main-top-bg.gif') repeat-x 0 -351px;
+	padding-bottom: 15px;
+	
+	> .container {
+		padding: 15px 0 0 0;
+		background: transparent url('images/site-main-top-line.gif') repeat-x top left;
+	}
+	
+}
+
+.site-article {
+	border: #9d8d6e 1px solid;
+	@include border-radius(3px);
+	padding: 20px !important;
+	background: #f8f6dd;
+
+}
+
+.site-article-wide-image {
+	
+	img {
+		width: 100%;
+		height: auto;
+	}
+	
+}
+
+.site-article-title {
+	
+	font-size: 16px;
+	font-family: $font-family-serif;
+	margin-bottom: 10px;
+}
+
+.site-category-submenu {
+	
+	background: transparent url('images/ii7y4b1144.gif') repeat-x center left;
+	color: #faf9e8;
+	@include border-radius(3px);
+	margin: 0 0 10px 0;
+	
+	a {
+		color: inherit;
+		text-transform: uppercase;
+		font-weight: bold;
+	}
+	
+	.fa {
+		display: none;
+	}
+	
+	.trow {
+		
+		> * {
+			padding: 10px;
+			text-align: center;
+			background: transparent url('images/ii8qbd1152.gif') no-repeat center left;
+			&:first-child {
+				background: transparent;
+			}
+		}
+		
+	}
+	
+}

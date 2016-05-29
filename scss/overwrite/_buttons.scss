@@ -1,0 +1,16 @@
+.btn-blank {
+	@include button-variant($gray, #fff, $input-border-color);
+}
+
+.btn-alt {
+	@include button-variant(#fff, $brand-alt, $brand-alt);
+}
+
+.btn-icon {
+
+	.fa {
+		font-size: 13px;
+		color: $gray-dark;
+	}
+	
+}
